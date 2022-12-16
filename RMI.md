@@ -60,4 +60,3 @@ public class Client {
 * In the terminal compile all the java file using the command `javac *.java`
 * Create the stub for the CLASS file using the command `rmic CLASS_NAME`
 * Start the RMI registry using the command `rmiregistry &` & check the port using `netstat -nlp | grep PORT_NUMBER` 
-
