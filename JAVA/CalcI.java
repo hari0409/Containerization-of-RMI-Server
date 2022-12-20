@@ -1,4 +1,3 @@
-package JAVA;
 import java.rmi.*;
 
 public interface CalcI extends Remote{

@@ -1,4 +1,3 @@
-package JAVA;
 import java.rmi.Naming;
 import java.util.Scanner;
 

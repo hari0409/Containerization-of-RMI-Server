@@ -1,4 +1,5 @@
-# RUNNING THE RMI SERVER:
+# RUNNING THE RMI CODES:
+* Move in the `JAVA` folder
 * Run the command `bash init.sh`
 * Create two terminal one for server & another for client.
 * In the server terminal, enter the command `java Server` to start the server
