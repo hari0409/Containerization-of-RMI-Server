@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Client {
     public static void main(String[] args) throws Exception{
         try {
-            CalcI obj=(CalcI)Naming.lookup("CALC");
+            CalcI obj=(CalcI)Naming.lookup("//172.17.0.2/CALC");
             try (Scanner in = new Scanner(System.in)) {
                 System.out.println("Enter the operation: + OR - OR * OR / OR 'q' OR anything to exit");
                 String op=in.nextLine();

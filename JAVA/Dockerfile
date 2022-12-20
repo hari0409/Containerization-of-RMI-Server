@@ -1,4 +1,6 @@
-FROM openjdk:latest
+FROM ubuntu:20.04
+RUN apt update
+RUN apt install default-jdk -y
+RUN apt install net-tools
+WORKDIR /hari/JAVA 
 COPY . .
-RUN bash init.bash
-RUN java Server
